@@ -1,0 +1,108 @@
+body {
+  margin: 5% 10%;
+}
+
+/* 스타일 초기화 */
+.file-list ul,
+.file-list ol,
+ul.file-list,
+ol.file-list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* 파일 포멧 이미지 기본 디자인 */
+.file-format-title {
+  font-weight: lighter;
+  font-weight: 200;
+}
+
+.file-list li {
+  padding-top: 0.26em;
+  padding-bottom: 0.26em;
+}
+
+.file-list a {
+  display: inline-block;
+  padding-top: 0.25em;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-indent: 1.4em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* 파일 포멧에 따라 자동으로 아이콘을 배경 이미지로 설정하는 스타일 */
+a[href$="pdf"] {
+  background-image: url("../images/pdf.png");
+}
+
+a[href$="doc"] {
+  background-image: url("../images/doc.png");
+}
+
+a[href$="xls"] {
+  background-image: url("../images/xls.png");
+}
+
+a[href$="txt"] {
+  background-image: url("../images/txt.png");
+}
+
+a[href$="jpg"] {
+  background-image: url("../images/jpg.png");
+}
+
+a[href$="png"] {
+  background-image: url("../images/png.png");
+}
+
+a[href$="mp3"] {
+  background-image: url("../images/mp3.png");
+}
+
+a[href$="psd"] {
+  background-image: url("../images/psd.png");
+}
+
+a[href$="html"] {
+  background-image: url("../images/html.png");
+}
+
+a[href$="mp4"] {
+  background-image: url("../images/mp4.png");
+}
+
+a[href$="gif"] {
+  background-image: url("../images/gif.png");
+}
+
+a[href$="mov"] {
+  background-image: url("../images/mov.png");
+}
+
+a[href$="avi"] {
+  background-image: url("../images/avi.png");
+}
+
+a[href$="tiff"] {
+  background-image: url("../images/tiff.png");
+}
+
+a[href$="ai"] {
+  background-image: url("../images/ai.png");
+}
+
+a[href$="js"] {
+  background-image: url("../images/js.png");
+}
+
+a[href$="flac"] {
+  background-image: url("../images/flac.png");
+}
+
+a[href$=".aac"] {
+  background-image: url("../images/aac.png");
+}
