@@ -1,0 +1,48 @@
+.text, .image, .block { 
+	width:14em;height:8em;margin:0.5em;border:thick solid;background:pink;
+}
+	       
+.text {
+	border-color:#99f;
+}
+
+.image {
+	border-color:#f99;
+}
+
+.image img {
+	width:50px;height:50px;
+}
+
+.block {
+	color:red;
+}
+
+.block div {
+	border:dashed;width:10em;
+}
+
+#inline-height div {
+	line-height:8em;
+}
+#inline-height img {
+	vertical-align:middle;
+}
+
+#table-cell .text,
+#table-cell .image,
+#table-cell .block {
+	display:table-cell;
+}
+
+#table-cell div, img {
+	vertical-align:middle;
+}
+
+#inline-block .block {
+	line-height:10px;
+}
+
+#inline-block .block div {
+	display:inline;display:inline-table;display:inline-block;vertical-align:middle;
+}
