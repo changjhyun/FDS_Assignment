@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+}
+
+.speakers-container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.speakers-container * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.speaker {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.speaker:hover {
+	background: #fff2e2;
+}
+
+.speaker-photo {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.speaker-bio {
+	overflow: hidden;
+}
+
+.speaker-name {
+	margin-top: 3.4375em;
+	margin-bottom: 1.125em;
+	font-family: "Montserrat", sans-serif;
+	font-size: 19px;
+	line-height: 1.1;
+}
+
+.speaker-desc {
+	padding-left: 1.875em;
+	padding-right: 1.875em;
+}
+
+.speaker-desc::after {
+	display: block;
+	content: '';
+	height: 2px;
+	width: 4em;
+	margin: 0.8125em auto;
+	background: #464646;
+}
+
+.speaker-bio a {
+	display: block;
+	width: 1.25em;
+	height: 1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("../images/icon-twitter.svg") no-repeat;
+	background-size: contain;
+}
+
+/* LAYOUT */
+.layout-half {
+	width: 50%;
+}
+
+.align-right {
+	float: right;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
