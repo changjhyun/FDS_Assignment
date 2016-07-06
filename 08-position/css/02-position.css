@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+	background: radial-gradient(#fff, #33AAED);
+}
+
+.buttonset-movie-control {
+	position: relative;
+}
+
+[class^="button-"] {
+	float: left;
+	width: 80px;
+	height: 40px;
+	position: relative;
+	background: white;
+	border: 1px solid #F5F5F5;
+}
+
+.button-play {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: 0px solid;
+}
+
+.button-stop {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: 0px solid;
+}
+
+.fa {
+	position: absolute;
+	top: 3px;
+	left: 5px;
+}
+
+.buttonset-movie-control {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
