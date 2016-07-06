@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.top-left .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  text-indent: -99999em;
+}
+
+.top-left::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.top-left>div {
+  float: left;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.location {
+  position: absolute;
+  top: 30px;
+  right: 0px; 
+}
+
+.top-right .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/sun.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  text-indent: -99999em;
+}
+
+.top-right::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.top-right>div {
+  float: left;
+}
+
+.temp {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+.bottom-left {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.bottom-left .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/lotus.png");
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  text-indent: -99999em;
+}
+
+.bottom-left>div {
+  float: left;
+}
+
+.bottom-left::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.main {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main .timer {
+  font-size: 11.25rem;
+}
+
+.main .greeting {
+  font-size: 3.125rem;
+}
+
+.main .main-focus {
+  width: 100%;
+  font-size: 2.1875rem;
+  font-weight: 300;
+  position: absolute;
+  top: 190%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.align-right {
+  float: right;
+}
+
+
+
