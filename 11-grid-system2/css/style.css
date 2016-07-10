@@ -1,0 +1,51 @@
+html,
+body {
+	color: #fff
+}
+
+.header,
+.footer {
+	background: #5e5e5e;
+}
+
+.right {
+	float: right;
+}
+
+.box {
+  background: #57d724;
+
+/*  height: 48px;*/
+  text-align: center;
+  line-height: 48px;
+}
+
+.picture {
+	margin-left: 110px;
+  background: #57d724;
+
+/*  height: 48px;*/
+  text-align: center;
+  line-height: 120px;
+}
+
+.article {
+	margin-left: 10px;
+	background: #57d724;
+	/*  height: 48px;*/
+	text-align: center;
+	line-height: 120px;
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+.row2 {
+  margin-bottom: 48px;
+}
+
+.footer {
+	line-height: 72px;
+	text-align: center;
+}

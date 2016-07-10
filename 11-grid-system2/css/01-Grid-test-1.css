@@ -1,0 +1,32 @@
+body {
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper {
+	width: 1440px;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	height: 90px;
+	background: #b0b0b0;
+}
+
+.headline {
+	height: 1090px;
+	float: left;
+}
+
+.main-left {
+	width: 950px;
+	
+	background: #b0b0b0;
+}
+
+.main-right {
+	width: 480px;
+	background: #b0b0b0;
+}
