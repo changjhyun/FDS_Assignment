@@ -1,0 +1,45 @@
+body.show-grid::before {
+	content:'';
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	min-height: 100vh;
+
+	margin-bottom:  1.5em;
+	font-size:      16px;
+	line-height:    1.5;
+	letter-spacing: -0.025em; /* em = Equal M */
+	color:          #373737;
+}
+
+
+.page-header {
+	height: 144px;
+	background: #06b1f5;
+}
+
+.page-header .brand {
+	float: left;
+	margin-top: 36px;
+	width: 220px;
+	height: 48px;
+	background: #18ffff;
+}
+
+.page-header .gnb {
+	
+}
+
+.page-header .gnb a {
+	display: block;
+}
+
+
+
+/* Common Grid Style Module */
+.wrapper {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
