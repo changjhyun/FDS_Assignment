@@ -1,0 +1,195 @@
+body {
+  background:#003652 url("../images/sea.png") no-repeat top center;
+  background-size:800px;
+	font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+.top {
+  min-height:440px;
+  text-align:center;
+}
+
+.top * {vertical-align:middle;}
+.top h1 {
+  margin: 0 18px 33px 18px;
+  padding: 80px 0 58px 0;
+  border-bottom: 1px solid #737680;
+}
+
+.top-logo {
+  display: inline-block;
+  width:178px;
+  height:51px;
+  background:url("../images/logo-header.png") no-repeat;
+  background-size:cover;
+}
+
+.top-menu {
+  margin: 0 37px;
+  width: 100%;
+  display: inline-block;
+}
+
+.top-menu li {
+  float: left;
+}
+
+strong {
+  font-weight: 100;
+}
+
+.button-hamberger {
+  border: none;
+  background-image: url(../images/icon-hamberger.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 25px;
+  /*background-size:cover;*/
+}
+
+.slogan {
+  margin: 0 18px 30px 18px;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 41px;
+}
+
+a:visited,
+a:link { 
+  color: #fff; }
+
+.contents {
+  /*margin: 0 10px;
+  padding: 0 10px;
+  height: 1000px;*/
+}
+
+.row[class*="col-"] {
+  float: left;
+}
+
+.row .box {
+  background-position: center center;
+}
+
+.row .col-sm-2 {
+  width: 50%;
+  height: 155px;
+}
+
+.row .col-sm-4 .col-md-8 {
+  height: 170px;
+}
+
+.row [class*="photo-"] {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-01 {
+  background-image: url("../images/photo-01.png");
+}
+
+.text-01 {
+  background-color: #7f6162;
+  text-align: center;
+}
+
+.photo-02 {
+  background-image: url("../images/photo-02.png");
+}
+
+.photo-03 {
+  background-image: url("../images/photo-03.png");
+}
+
+.photo-04 {
+  background-image: url("../images/photo-04.png");
+}
+
+.photo-05 {
+  background-image: url("../images/photo-05.png");
+}
+
+.photo-06 {
+  background-image: url("../images/photo-06.png");
+  height: 280px;
+}
+
+.photo-07 {
+  background-image: url("../images/photo-07.png");
+}
+
+.photo-08 {
+  background-image: url("../images/photo-08.png");
+}
+
+.photo-09 {
+  background-image: url("../images/photo-09.png");
+  height: 420px;
+}
+
+.photo-10 {
+  background-image: url("../images/photo-10.png");
+}
+
+.photo-11 {
+  background-image: url("../images/photo-11.png");
+}
+
+.photo-12 {
+  background-image: url("../images/photo-12.png");
+}
+
+.photo-13 {
+  background-image: url("../images/photo-13.png");
+}
+
+.photo-14 {
+  background-image: url("../images/photo-14.png");
+  height: 115px;
+}
+
+footer {
+   bottom:0px;
+   width:100%;
+   background:#999;
+   
+}
+
+.footer-logo {
+  display: inline-block;
+  width:178px;
+  height:51px;
+  background:url("../images/logo-header.png") no-repeat;
+  background-size:cover;
+}
+
+
+
+.grid-container::before {
+  content: '';
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+.grid-container[class*="show-grid"]::before {
+  height: 500vh;
+}
+.grid-container.show-grid::before {
+  background: linear-gradient(90deg, rgba(191, 64, 64, 0.3) 90%, rgba(0, 0, 0, 0) 90%), linear-gradient(rgba(0, 0, 0, 0) 26px, #26923f 26px);
+  background-size: 50% 1px, 1px 1.6875rem;
+}
+.grid-container.show-grid-split::before {
+  background: linear-gradient(90deg, transparent 8.4%, rgba(191, 64, 64, 0.3) 8.4%, rgba(191, 64, 64, 0.3) 91.6%, transparent 91.6%), linear-gradient(transparent 26px, #26923f 26px);
+  background-size: 500px 1px, 1px 1.6875rem;
+}
